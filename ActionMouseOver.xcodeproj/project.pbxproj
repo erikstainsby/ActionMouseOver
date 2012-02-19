@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		035309C214F05E2D002E9A5E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035309C114F05E2D002E9A5E /* Cocoa.framework */; };
 		035309CC14F05E2D002E9A5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 035309CA14F05E2D002E9A5E /* InfoPlist.strings */; };
+		035309FF14F061CA002E9A5E /* RSTrixiePlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035309FE14F061CA002E9A5E /* RSTrixiePlugin.framework */; };
+		03530A0214F0628E002E9A5E /* ActionMouseOver.h in Headers */ = {isa = PBXBuildFile; fileRef = 03530A0014F0628E002E9A5E /* ActionMouseOver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03530A0314F0628E002E9A5E /* ActionMouseOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 03530A0114F0628E002E9A5E /* ActionMouseOver.m */; };
+		03530A1614F064E0002E9A5E /* ActionMouseOver.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03530A1514F064E0002E9A5E /* ActionMouseOver.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,9 +21,13 @@
 		035309C414F05E2D002E9A5E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		035309C514F05E2D002E9A5E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		035309C614F05E2D002E9A5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		035309C914F05E2D002E9A5E /* ActionMouseOver-Info.plist */ = {isa = PBXFileReference; path = "ActionMouseOver-Info.plist"; sourceTree = "<group>"; };
+		035309C914F05E2D002E9A5E /* ActionMouseOver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActionMouseOver-Info.plist"; sourceTree = "<group>"; };
 		035309CB14F05E2D002E9A5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		035309CD14F05E2D002E9A5E /* ActionMouseOver-Prefix.pch */ = {isa = PBXFileReference; path = "ActionMouseOver-Prefix.pch"; sourceTree = "<group>"; };
+		035309CD14F05E2D002E9A5E /* ActionMouseOver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActionMouseOver-Prefix.pch"; sourceTree = "<group>"; };
+		035309FE14F061CA002E9A5E /* RSTrixiePlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RSTrixiePlugin.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Workspace_Trixie-axnfrbtrkoszpiehooyethumxqxg/Build/Products/Debug/RSTrixiePlugin.framework"; sourceTree = "<group>"; };
+		03530A0014F0628E002E9A5E /* ActionMouseOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionMouseOver.h; sourceTree = "<group>"; };
+		03530A0114F0628E002E9A5E /* ActionMouseOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionMouseOver.m; sourceTree = "<group>"; };
+		03530A1514F064E0002E9A5E /* ActionMouseOver.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionMouseOver.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				035309FF14F061CA002E9A5E /* RSTrixiePlugin.framework in Frameworks */,
 				035309C214F05E2D002E9A5E /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,6 +63,7 @@
 		035309C014F05E2D002E9A5E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				035309FE14F061CA002E9A5E /* RSTrixiePlugin.framework */,
 				035309C114F05E2D002E9A5E /* Cocoa.framework */,
 				035309C314F05E2D002E9A5E /* Other Frameworks */,
 			);
@@ -74,6 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				035309C814F05E2D002E9A5E /* Supporting Files */,
+				03530A0014F0628E002E9A5E /* ActionMouseOver.h */,
+				03530A0114F0628E002E9A5E /* ActionMouseOver.m */,
+				03530A1514F064E0002E9A5E /* ActionMouseOver.xib */,
 			);
 			path = ActionMouseOver;
 			sourceTree = "<group>";
@@ -90,6 +103,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		035309FD14F061BE002E9A5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03530A0214F0628E002E9A5E /* ActionMouseOver.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		035309BD14F05E2D002E9A5E /* ActionMouseOver */ = {
 			isa = PBXNativeTarget;
@@ -98,6 +122,7 @@
 				035309BA14F05E2D002E9A5E /* Sources */,
 				035309BB14F05E2D002E9A5E /* Frameworks */,
 				035309BC14F05E2D002E9A5E /* Resources */,
+				035309FD14F061BE002E9A5E /* Headers */,
 			);
 			buildRules = (
 			);
@@ -140,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				035309CC14F05E2D002E9A5E /* InfoPlist.strings in Resources */,
+				03530A1614F064E0002E9A5E /* ActionMouseOver.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03530A0314F0628E002E9A5E /* ActionMouseOver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,10 +244,15 @@
 		035309D114F05E2D002E9A5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"~/Code/Workspaces/Trixie/RSTrixiePlugin/RSTrixiePlugin",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/Workspace_Trixie-axnfrbtrkoszpiehooyethumxqxg/Build/Products/Debug\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ActionMouseOver/ActionMouseOver-Prefix.pch";
 				INFOPLIST_FILE = "ActionMouseOver/ActionMouseOver-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -229,10 +261,15 @@
 		035309D214F05E2D002E9A5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"~/Code/Workspaces/Trixie/RSTrixiePlugin/RSTrixiePlugin",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/Workspace_Trixie-axnfrbtrkoszpiehooyethumxqxg/Build/Products/Debug\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ActionMouseOver/ActionMouseOver-Prefix.pch";
 				INFOPLIST_FILE = "ActionMouseOver/ActionMouseOver-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = bundle;
 			};
