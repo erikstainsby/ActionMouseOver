@@ -47,6 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				035309C714F05E2D002E9A5E /* ActionMouseOver */,
+				035309C814F05E2D002E9A5E /* Supporting Files */,
 				035309C014F05E2D002E9A5E /* Frameworks */,
 				035309BF14F05E2D002E9A5E /* Products */,
 			);
@@ -83,7 +84,6 @@
 		035309C714F05E2D002E9A5E /* ActionMouseOver */ = {
 			isa = PBXGroup;
 			children = (
-				035309C814F05E2D002E9A5E /* Supporting Files */,
 				03530A0014F0628E002E9A5E /* ActionMouseOver.h */,
 				03530A0114F0628E002E9A5E /* ActionMouseOver.m */,
 				03530A1514F064E0002E9A5E /* ActionMouseOver.xib */,
@@ -99,6 +99,7 @@
 				035309CD14F05E2D002E9A5E /* ActionMouseOver-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = ActionMouseOver;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +295,7 @@
 				035309D214F05E2D002E9A5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -14,14 +14,12 @@
 	
     if( nil != (self = [super initWithNibName:nibNameOrNil	bundle:nibBundleOrNil]))
     {
-		[self setName: @"MouseOver"];
+		[self setPluginName: @"MouseOver"];
     }
     return self;
 }
 
 
-- (BOOL) hasSelectorField {
-	return YES;
-}
+
 
 @end
